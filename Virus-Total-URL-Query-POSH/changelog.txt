@@ -1,0 +1,20 @@
+Virus Total URL Query
+
+--- Change Log ---
+1.12
+- Fixed an issue where queued URLs weren't being displayed in the output due to an incorrect for loop code section.
+
+1.11
+- Fixed a variable scope issue that was causing data not to be assigned to the correct scope.
+
+1.10
+- Added functionality to resubmit URLs for scanning if the scan_date is older than 6 months.
+- Changed the way result data was displayed and exported.
+    - If no malicious URLs were identified, then the results tables aren't displayed and nothing is exported.
+
+1.05
+- Added functionality to handle queued scans, which will be placed in the exported CSV file with permalink to the scan report.
+- Added functionality to interrupt the scanning function and still continue with the results and export functions.
+
+1.00
+- Initial project version
